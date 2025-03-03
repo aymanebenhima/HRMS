@@ -132,6 +132,38 @@ L'objectif est de développer un module **HRMS (Human Resource Management System
 
 ---
 
+### **4. Gestion des congés et des jours de récupération**
+
+#### Gestion des congés annuels  
+1. **Acquisition des jours de congé**  
+   - Tout employé ayant complété une année de travail bénéficie d’un solde de **18 jours de congé**.  
+   - Si l’employé n’a pas encore complété une année, il acquiert **1,5 jour de congé** par mois travaillé.  
+   - À partir d’un an de service, le solde est augmenté de **0,5 jour** par an.
+
+2. **Demande de congé**  
+   - L’employé doit soumettre une demande de congé au **moins une semaine à l’avance**.  
+   - Chaque demande doit passer par **deux niveaux de validation** :  
+     1. **Validation par le Manager** (premier niveau).  
+     2. **Validation par le service RH** (deuxième niveau).  
+   - Pour un **manager**, seule la **validation RH** est requise.
+
+3. **Consultation du solde de congés**  
+   - Chaque employé peut consulter à tout moment son solde de congé disponible via son espace personnel.
+
+---
+
+#### **4. Gestion des jours de récupération**
+1. **Acquisition des jours de récupération**  
+   - Les jours travaillés en extra peuvent être convertis en jours de récupération.  
+   - Le solde des jours de récupération est défini et attribué par le **service RH**.
+
+2. **Demande de récupération**  
+   - L’employé peut soumettre une demande de récupération de jours travaillés.  
+   - Cette demande est validée **uniquement par le service RH**.
+
+3. **Consultation du solde de récupération**  
+   - Chaque employé peut voir le nombre de jours de récupération disponibles via son espace personnel.
+
 ### **Résumé des Fonctions Clés à Développer**
 - **Authentification sécurisée** : Système de gestion des utilisateurs avec différents rôles (Admin, HR, Manager, Employé).
 - **Gestion des employés** : Ajouter, modifier, supprimer les employés, et suivre leur carrière (promotions, augmentations).
@@ -153,7 +185,9 @@ L'objectif est de développer un module **HRMS (Human Resource Management System
 #### **Modalités Pédagogiques :**
 
 - *Travail :* Individuel 👨‍💻
-- *Durée estimée :* 5 jours ⏳
+- *Durée estimée :* 5*2 jours ⏳
 - *Objectif :* Développer un module complet de gestion des employés tout en respectant les bonnes pratiques Laravel et l'architecture du système HRMS.
-- Date de lancement du brief : 24/02/2025 à 09:15
-- Date limite de soumission: 28/02/2025 avant 05:30 PM
+- Date de lancement du brief 1: 24/02/2025 à 09:15
+- Date limite de soumission du brief 1: 28/02/2025 avant 05:30 PM
+- Date de lancement du brief 2: 03/03/2025 à 09:30
+- Date limite de soumission du brief 2: 07/03/2025 avant 05:00 PM
